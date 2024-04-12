@@ -1,6 +1,5 @@
 # Understanding X-ray Absorption Spectra by Means of Descriptors and Machine Learning Algorithms
 
-### A. A. Guda, S. A. Guda, A. Martini, A.N. Kravtsova, A. Algasov, A. Bugaev, S. P. Kubrin, L. V. Guda, P. Šot, J. A. van Bokhoven, C. Copéret, A. V. Soldatov
 
 The notebook contains the code for using machine learning algorithms and establishing the relationship between intuitive descriptors of spectra, such as edge position, intensities, positions and curvatures of minima and maxima on the one side, and those of the local atomic and electronic structure which are the coordination numbers, bond distances and angles, and oxidation state on the other. This approach allows overcoming the problem of the systematic difference between theoretical and experimental spectra. Furthermore, the numerical relations can be expressed in analytical formulas providing a simple and fast tool to extract structural parameters based on spectral shape. The methodology was successfully applied to experimental data of the multicomponent Fe:SiO2 system and reference iron compounds, demonstrating the high prediction quality for both theoretical validation sets and experimental data.
 
@@ -23,6 +22,6 @@ Anaconda with Python 3.7.6 is needed for running the code.
 
 Install additional packages with the command:
 
-```pip install jupytext ipykernel ipywidgets tqdm scipy numba cycler statsmodels lmfit matplotlib numpy pandas parsy notebook nbformat pulp scikit_learn seaborn```
+```pip install jupytext ipykernel ipywidgets tqdm scipy numba cycler statsmodels lmfit matplotlib numpy pandas parsy notebook nbformat pulp scikit_learn tensorflow seaborn```
 
 Open file paper_calculations.ipynb in Jupyter notebook and run it
